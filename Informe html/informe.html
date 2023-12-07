@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Informe de Ejecución de Prueba Hilarimedina</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    .test-case {
+      margin-top: 20px;
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+    .success {
+      color: green;
+    }
+    .failure {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Informe de Ejecución de Prueba</h1>
+  
+  <div class="test-case">
+    <h2>Caso de Prueba: Iniciar Sesión Exitosamente</h2>
+    <p>Resultado: <span class="success">Exitoso</span></p>
+    <p>Descripción: El usuario pudo iniciar sesión satisfactoriamente, ingresando credenciales válidas.</p>
+    <p>Criterios de Aceptación:</p>
+    <ul>
+      <li>El usuario puede ingresar sus credenciales y hacer clic en el botón de inicio de sesión.</li>
+      <li>Después de iniciar sesión, el usuario debe ser redirigido a la página principal.</li>
+    </ul>
+  </div>
+  
+  <div class="test-case">
+    <h2>Caso de Prueba: Validación de Campos Obligatorios en el Formulario de Inicio de Sesión</h2>
+    <p>Resultado: <span class="success">Exitoso</span></p>
+    <p>Descripción: El sistema mostró correctamente el mensaje de error al intentar enviar el formulario sin completar los campos obligatorios.</p>
+    <p>Criterios de Aceptación:</p>
+    <ul>
+      <li>Los campos de usuario y contraseña son obligatorios.</li>
+      <li>Se muestra un mensaje de error si se intenta enviar el formulario sin completar los campos requeridos.</li>
+    </ul>
+  </div>
+
+  <div class="test-case">
+    <h2>Caso de Prueba: Recuperar Contraseña</h2>
+    <p>Resultado: <span class="success">Exitoso</span></p>
+    <p>Descripción: El usuario pudo recuperar su contraseña correctamente siguiendo el enlace de recuperación.</p>
+    <p>Criterios de Aceptación:</p>
+    <ul>
+      <li>Existe un enlace para recuperar la contraseña en la página de inicio de sesión.</li>
+      <li>Al hacer clic en el enlace, el usuario es redirigido a una página donde puede ingresar su dirección de correo electrónico para restablecer la contraseña.</li>
+    </ul>
+  </div>
+
+  <div class="test-case">
+    <h2>Caso de Prueba: Cerrar Sesión</h2>
+    <p>Resultado: <span class="success">Exitoso</span></p>
+    <p>Descripción: El usuario pudo cerrar sesión satisfactoriamente después de haber iniciado sesión previamente.</p>
+    <p>Criterios de Aceptación:</p>
+    <ul>
+      <li>Después de iniciar sesión, el usuario puede cerrar sesión haciendo clic en un enlace o botón correspondiente.</li>
+      <li>Después de cerrar sesión, el usuario debe ser redirigido a la página de inicio de sesión.</li>
+    </ul>
+  </div>
+
+  <div class="test-case">
+    <h2>Caso de Prueba: Cambiar Contraseña</h2>
+    <p>Resultado: <span class="failure">Fallido</span></p>
+    <p>Descripción: La prueba para cambiar la contraseña falló al intentar cambiar la contraseña sin proporcionar la contraseña actual.</p>
+    <p>Criterios de Aceptación:</p>
+    <ul>
+      <li>Después de iniciar sesión, el usuario puede acceder a una página para cambiar su contraseña.</li>
+      <li>El usuario debe proporcionar la contraseña actual y la nueva contraseña, y al enviar el formulario, la contraseña debe actualizarse correctamente.</li>
+    </ul>
+  </div>
+
+</body>
+</html>
