@@ -1,0 +1,5 @@
+C:\Users\Jaylina\Desktop\Projectselenium\MiProyectoSelenium\obj\Debug\net7.0\MiProyectoSelenium.csproj.AssemblyReference.cache
+C:\Users\Jaylina\Desktop\Projectselenium\MiProyectoSelenium\obj\Debug\net7.0\MiProyectoSelenium.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jaylina\Desktop\Projectselenium\MiProyectoSelenium\obj\Debug\net7.0\MiProyectoSelenium.AssemblyInfoInputs.cache
+C:\Users\Jaylina\Desktop\Projectselenium\MiProyectoSelenium\obj\Debug\net7.0\MiProyectoSelenium.AssemblyInfo.cs
+C:\Users\Jaylina\Desktop\Projectselenium\MiProyectoSelenium\obj\Debug\net7.0\MiProyectoSelenium.csproj.CoreCompileInputs.cache
